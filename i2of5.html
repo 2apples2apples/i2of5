@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i2of5 Generator</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>i2of5 Generator</title>
-</head>
+  <body>
+    <header>i2of5 Generator</header>
+    <input id="upcInput" placeholder="Enter UPC here" />
 
-<body>
-	<header>i2of5 Generator</header>
-	<input id="upcInput" placeholder="Enter UPC here">
-	<button id="submitButton">Submit</button>
+    <button id="submitButton">Submit</button>
 
-</body>
-<script src="i2of5.js"></script>
-
+    <select id="pack-size-selector">
+      <option value="5">2</option>
+      <option value="2">3</option>
+      <option value="4">4</option>
+      <option value="1">6</option>
+      <option value="7">10</option>
+      <option value="3">12</option>
+      <option value="9">18</option>
+      <option value="6">24</option>
+      <option value="9">96</option>
+      <option value="9">16</option>
+      <option value="9">5</option>
+      <option value="8">36</option>
+      <option value="2">20</option>
+      <option value="8">8</option>
+      <option value="7">48</option>
+      <option value="6">100</option>
+      <option value="2">40</option>
+      <option value="1">25</option>
+      <option value="9">42</option>
+      <option value="4">1</option>
+      <option value="3">50</option>
+      <option value="5">32</option>
+      <option value="6">14</option>
+      <option value="8">9</option>
+    </select>
+  </body>
+  <script src="i2of5.js"></script>
 </html>
